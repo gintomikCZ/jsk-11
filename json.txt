@@ -1,0 +1,16 @@
+
+const person = {
+  firstname: 'Karel',
+  lastname: 'Houska'
+}
+
+"{
+  "id": 9,
+  "firstname": "Karel",
+  "lastname": "Houska"
+}"
+
+
+
+JSON.stringify(person) - vrátí string ve formátu JSON z toho objektu
+JSON.parse(json_string) - vrátí JS objekt vytvořený z JSON stringu

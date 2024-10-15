@@ -1,0 +1,34 @@
+HTTP Request
+  http methods
+
+  POST
+  GET - nemůže obsahovat body
+  PUT
+  DELETE
+
+
+CRUD operace
+
+C - Create - POST
+R - Read - GET
+U - Update - PUT
+D - Delete - DELETE
+
+Read
+  API vrací pole objektů, případně prázdné pole
+  - načíst všechny data z tabulky
+    server/tablename
+  - načíst záznamy z tabulky s filtrem
+    server/tablename?column=value&column2=value2
+
+  API vrací jediný objekt - chyba pokud záznam neexistuje (404)
+  - načíst jeden záznam podle id
+    server/tablename/id
+
+
+Http Response
+  - body - objekt JSON
+
+JavaScript Object Notation
+
+
